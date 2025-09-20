@@ -25,7 +25,7 @@ filename = 'modelo-reg.pkl'
 modelo, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 #Cargamos los datos futuros
-data = pd.read_csv("videojuegos-datosFuturos.csv")
+#data = pd.read_csv("videojuegos-datosFuturos.csv")
 #data.head()
 
 #Se realiza la preparación
